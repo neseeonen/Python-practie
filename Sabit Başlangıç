@@ -1,0 +1,11 @@
+girdi = input('')
+
+print(girdi)
+
+ilkHarf = girdi[0]
+
+cikti = girdi.replace(ilkHarf , '*')
+print(cikti)
+cikti = cikti.replace('*',ilkHarf,1)
+
+print(cikti)
