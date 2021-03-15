@@ -1,0 +1,12 @@
+x=int(input(""))
+sayilar=[]
+sayilar.append(x)
+
+while x>1 :
+    if x % 2 == 0 :
+        x=x/2
+        sayilar.append(x)
+    else :
+        x=(3*x)+1
+        sayilar.append(x)
+print(len(sayilar)-1) 
