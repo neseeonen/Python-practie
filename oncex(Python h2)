@@ -1,0 +1,22 @@
+listOther = []
+listx = []
+
+while (1):
+    girdi = input('')
+    if (girdi.startswith("x")):
+        listx.append(girdi)
+        continue
+
+    elif (girdi == ""):
+        break
+
+    else:
+        listOther.append(girdi)
+        continue
+
+listx.sort()
+listOther.sort()
+totalList = listx + listOther
+
+for eleman in totalList:
+    print(eleman)
