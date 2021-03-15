@@ -1,0 +1,16 @@
+print("birinci kelimeyi giriniz")
+
+first = input('')
+
+print("ikinci kelimeyi giriniz")
+
+second = input('')
+
+first2 = first[0] + first[1]
+second2 = second [0] + second[1]
+
+first = first.replace(first2 , second2 , 1)
+second = second.replace(second2 , first2 , 1)
+
+print(first)
+print(second)
